@@ -3,7 +3,7 @@
   Paleta: fondo #0d1117 · verde neón #39FF14 · cian #00FFF7 · magenta #FF00FF
 -->
 <div align="right">
-  <a href="./README.md">🇬🇧 EN</a> · <b>🇪🇸 ES</b>
+  🇬🇧 EN · <a href="./README.es.md">🇪🇸 ES</a>
 </div>
 
 <h1 align="center">

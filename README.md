@@ -3,7 +3,7 @@
   Palette: bg #0d1117 · neon green #39FF14 · cyan #00FFF7 · magenta #FF00FF
 -->
 <div align="right">
-  <b>🇬🇧 EN</b> · <a href="./README.es.md">🇪🇸 ES</a>
+  <a href="./README.md">🇬🇧 EN</a> · 🇪🇸 ES
 </div>
 
 <h1 align="center">
