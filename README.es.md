@@ -1,30 +1,32 @@
 <!--
   README de perfil — Español
-  Terminal vibrante: off-black #0d1117 · verde #39FF14 · cian #22D3EE
+  Sistema de diseño: ver DESIGN.md
+  Tokens: bg #0d1117 · accent #39FF14 · accent-2 #22D3EE · accent-3 #FF00FF · text #c9d1d9 · muted #8b949e
 -->
 <div align="right">
   <a href="https://github.com/JuanP-a/JuanP-a/blob/main/README.md">🇬🇧 English</a> · <b>🇪🇸 Español</b>
 </div>
 
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:39FF14&height=160&section=header&text=SloKBac&fontSize=52&fontColor=0d1117&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%C2%B7%20Ciberseguridad&descAlignY=60&descSize=16" />
-</h1>
+<img alt="SloKBac — Desarrollador Full-Stack · Ciberseguridad" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:39FF14&height=160&section=header&text=SloKBac&fontSize=52&fontColor=0d1117&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%C2%B7%20Ciberseguridad&descAlignY=60&descSize=16" />
+
+## $ whoami
+
+**Desarrollador Full-Stack** · **Ciberseguridad** (blue team)
 
 <p align="center">
-  <a href="https://github.com/JuanP-a">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+whoami;Desarrollador+full-stack;Ciberseguridad+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure." alt="Typing SVG" />
-  </a>
+  <a href="https://github.com/JuanP-a"><img alt="Desarrollador full-stack · ciberseguridad · blue team · Next.js, .NET, Python, Java" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+whoami;Desarrollador+full-stack;Ciberseguridad+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure." /></a>
 </p>
 
 <p align="center">
-  <code>$</code> <b>Desarrollador Full-Stack</b> · <code>$</code> <b>Ciberseguridad</b> (blue team) · <a href="mailto:juan12fc@gmail.com">juan12fc@gmail.com</a>
+  <img alt="Stack: TypeScript, Next.js, React, C#, .NET, Angular, Python, Java, Docker, Linux, Bash, Git, PostgreSQL, GitHub Actions" src="https://skillicons.dev/icons?i=ts,nextjs,react,cs,dotnet,angular,py,java,docker,linux,bash,git,postgres,githubactions&perline=7&theme=dark" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,cs,dotnet,angular,py,java,docker,linux,bash,git,postgres,githubactions&perline=7&theme=dark" />
+  <a href="mailto:juan12fc@gmail.com"><img alt="Correo: juan12fc@gmail.com" src="https://img.shields.io/badge/Email-juan12fc%40gmail.com-39FF14?style=for-the-badge&logo=gmail&logoColor=0d1117" /></a>
+  <a href="https://github.com/JuanP-a"><img alt="GitHub: JuanP-a" src="https://img.shields.io/badge/GitHub-JuanP--a-22D3EE?style=for-the-badge&logo=github&logoColor=0d1117" /></a>
 </p>
 
-### `$` proyectos
+## $ proyectos
 
 | Proyecto | Stack | Qué hace |
 |:--|:--|:--|
@@ -32,24 +34,20 @@
 | **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)** | `.NET 8` · `Angular` · `SQL Server` | Pedidos con stock en vivo · JWT + BCrypt · Dapper + SPs |
 | **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)** | `Python` · `Playwright` · `jobspy` | Búsqueda de empleo dev/cibersec automatizada · hardening VPS |
 
-### `$` estadísticas
+## $ estadísticas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/main/github-metrics.svg" alt="Métricas de GitHub — stats, lenguajes, actividad" />
+  <img alt="Métricas de GitHub: stats, lenguajes, actividad" src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/main/github-metrics.svg" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=JuanP-a&hide_border=true&background=0d1117&stroke=39FF14&ring=22D3EE&fire=FF00FF&currStreakLabel=39FF14&sideLabels=c9d1d9&dates=8b949e&currStreakNum=39FF14&sideNums=c9d1d9" alt="Racha" />
-</p>
-
-### `$` actividad
+## $ actividad
 
 <p align="center">
   <img alt="Serpiente de contribuciones" src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/output/snake.svg" />
 </p>
 
 <details>
-<summary><b>🛡️ Ciberseguridad y más</b></summary>
+<summary><b>// ciberseguridad</b></summary>
 <br>
 
 ```console
@@ -67,9 +65,9 @@ root@slokbac:~$ ls ./seguridad
 </details>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JuanP-a&label=visitas&color=39FF14&style=for-the-badge" />
+  <img alt="Contador de visitas" src="https://komarev.com/ghpvc/?username=JuanP-a&label=visitas&color=39FF14&style=for-the-badge" />
 </p>
 
 <p align="center"><em>Code. Ship. Secure.</em></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:22D3EE&height=90&section=footer" />
+<img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:22D3EE&height=90&section=footer" />
