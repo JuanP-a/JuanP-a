@@ -20,12 +20,18 @@
     .dim   { fill: var(--muted); }
     .prompt{ font-size: 18px; fill: var(--accent); }
 
-    /* Lines type in one by one, hold, then reset. `both` keeps them hidden
-       during the delay; without animation support they simply stay visible. */
-    .line { animation: reveal 12s steps(1, end) infinite both; }
-    .l1 { animation-delay: .6s; } .l2 { animation-delay: 1.4s; }
-    .l3 { animation-delay: 2.2s; } .l4 { animation-delay: 3.0s; }
-    @keyframes reveal { 0% { opacity: 0 } 3% { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
+    /* Lines type in one by one (5%, 11.7%, 18.3%, 25% of 12s), hold, then all
+       vanish together at 97%. Start offsets live in the keyframes, not in
+       animation-delay: a delay only shifts the first iteration, so each line
+       would reset at its own time on every later loop. Without animation
+       support the lines simply stay visible. */
+    .line { animation-duration: 12s; animation-timing-function: steps(1, end); animation-iteration-count: infinite; }
+    .l1 { animation-name: r1; } .l2 { animation-name: r2; }
+    .l3 { animation-name: r3; } .l4 { animation-name: r4; }
+    @keyframes r1 { 0% { opacity: 0 } 5%    { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
+    @keyframes r2 { 0% { opacity: 0 } 11.7% { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
+    @keyframes r3 { 0% { opacity: 0 } 18.3% { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
+    @keyframes r4 { 0% { opacity: 0 } 25%   { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
 
     .cursor { animation: blink 1.1s steps(1, end) infinite; fill: var(--accent); }
     @keyframes blink { 50% { opacity: 0 } }
