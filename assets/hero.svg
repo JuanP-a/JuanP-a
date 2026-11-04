@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img">
+  <title>SloKBac — Full-Stack Developer · Cybersecurity (blue team)</title>
+  <style>
+    :root {
+      --bg: #F6F8FA; --border: #D0D7DE; --text: #1F2328; --muted: #59636E;
+      --accent: #0369A1; --ok: #15803D; --warn: #B54708;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0B1220; --border: #1E293B; --text: #E2E8F0; --muted: #94A3B8;
+        --accent: #38BDF8; --ok: #4ADE80; --warn: #FBBF24;
+      }
+    }
+    text { white-space: pre; font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
+    .title { font-size: 56px; font-weight: 700; fill: var(--text); }
+    .sub   { font-size: 18px; fill: var(--muted); }
+    .log   { font-size: 17px; fill: var(--text); }
+    .ok    { fill: var(--ok); font-weight: 700; }
+    .warn  { fill: var(--warn); font-weight: 700; }
+    .dim   { fill: var(--muted); }
+    .prompt{ font-size: 18px; fill: var(--accent); }
+
+    /* Lines type in one by one, hold, then reset. `both` keeps them hidden
+       during the delay; without animation support they simply stay visible. */
+    .line { animation: reveal 12s steps(1, end) infinite both; }
+    .l1 { animation-delay: .6s; } .l2 { animation-delay: 1.4s; }
+    .l3 { animation-delay: 2.2s; } .l4 { animation-delay: 3.0s; }
+    @keyframes reveal { 0% { opacity: 0 } 3% { opacity: 1 } 92% { opacity: 1 } 97%, 100% { opacity: 0 } }
+
+    .cursor { animation: blink 1.1s steps(1, end) infinite; fill: var(--accent); }
+    @keyframes blink { 50% { opacity: 0 } }
+
+    .scan { fill: var(--accent); opacity: .12; animation: sweep 9s linear infinite; }
+    @keyframes sweep { from { transform: translateX(0) } to { transform: translateX(990px) } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line, .cursor, .scan { animation: none; }
+      .scan { display: none; }
+    }
+  </style>
+
+  <rect x=".5" y=".5" width="999" height="239" rx="10" fill="var(--bg)" stroke="var(--border)"/>
+  <rect class="scan" x="0" y="1" width="3" height="238"/>
+
+  <text class="title" x="40" y="100">SloKBac</text>
+  <text class="sub" x="42" y="138">Full-Stack Developer · Cybersecurity</text>
+  <text class="sub" x="42" y="164" style="fill: var(--accent)">blue team · secure by default</text>
+
+  <text class="prompt" x="42" y="212">$ ship --secure</text>
+  <rect class="cursor" x="232" y="197" width="10" height="19"/>
+
+  <g class="log" transform="translate(600 72)">
+    <text class="line l1" x="0" y="0"><tspan class="ok">[ OK ]</tspan>  ufw        active</text>
+    <text class="line l2" x="0" y="32"><tspan class="ok">[ OK ]</tspan>  fail2ban   active</text>
+    <text class="line l3" x="0" y="64"><tspan class="ok">[ OK ]</tspan>  ssh        key-only</text>
+    <text class="line l4" x="0" y="96"><tspan class="warn">[WARN]</tspan>  learning   blue team <tspan class="dim">...</tspan></text>
+  </g>
+</svg>

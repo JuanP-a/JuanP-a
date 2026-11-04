@@ -34,15 +34,19 @@ magenta no se usa como color de texto (solo detalles gráficos).
 
 El perfil se organiza en **4 zonas** para minimizar scroll:
 
-1. **Hero / identidad** — banner, rol, typing, stack, contacto.
+1. **Hero / identidad** — `assets/hero.svg`, rol, stack, contacto.
 2. **Trabajo** — proyectos (tabla).
 3. **Actividad** — métricas + serpiente de contribuciones.
 4. **Detalle** — ciberseguridad, dentro de `<details>` (se abre al clic).
 
 ## Reglas de composición
 
-- **Un solo hero.** Los banners grandes (`capsule-render`) solo en el header y
-  en un footer fino.
+- **Un solo hero.** `assets/hero.svg` (propio, un archivo, claro y oscuro vía
+  `prefers-color-scheme` dentro del SVG) más un footer fino (`capsule-render`).
+  Paleta del hero (dirección "blue team"): oscuro `#0B1220` bg · `#E2E8F0`
+  text · `#94A3B8` muted · `#38BDF8` accent · `#4ADE80` ok · `#FBBF24` warn;
+  claro `#F6F8FA` bg · `#1F2328` · `#59636E` · `#0369A1` · `#15803D` ·
+  `#B54708` (todos ≥ 4.5:1). El resto de widgets sigue con la paleta neón.
 - **≤ 3 zonas de contenido** + detalle colapsado. No apilar widgets.
 - **Sin redundancia:** si dos widgets muestran lo mismo (p. ej. `streak` y
   `metrics`), queda **uno**.
@@ -64,20 +68,23 @@ El perfil se organiza en **4 zonas** para minimizar scroll:
   | `#FF00FF` / `#0d1117` | 6.03:1 | AA |
 
 - **Tema claro:** los acentos neón fallan sobre blanco (`#39FF14` 1.36:1,
-  `#22D3EE` 1.81:1). Todo widget transparente (typing, snake) lleva variante
-  clara vía `<picture>` + `prefers-color-scheme`. Acentos claros: `#0369A1`
+  `#22D3EE` 1.81:1). Todo widget transparente (snake, y cualquier typing) lleva
+  variante clara vía `<picture>` + `prefers-color-scheme`. Acentos claros: `#0369A1`
   (5.93:1), `#B54708` (5.43:1), texto `#1F2328`, muted `#59636E` (6.11:1).
 - **Headings jerárquicos:** secciones con `##` (no `###` huérfanos).
-- **Motion:** `typing-svg` y `snake` animan en loop y **no** se puede aplicar
-  `prefers-reduced-motion` en GitHub (se renderizan como `<img>`). El texto del
-  typing duplica información que ya está en texto plano; la snake es decorativa.
+- **Motion:** `hero.svg` y `snake` animan en loop. `hero.svg` declara
+  `prefers-reduced-motion` pero **no está verificado** que GitHub/el navegador
+  lo aplique a un SVG cargado como `<img>` (la emulación de pruebas no lo
+  aplicó); por eso el movimiento es lento y sin destellos (parpadeo ~1 Hz).
+  El texto del hero duplica información que ya está en texto plano; la snake es
+  decorativa.
 
 ## Widgets (todas gratis, sin costo)
 
 | Función | Servicio | Hosting |
 |:--|:--|:--|
-| Banner | [capsule-render](https://github.com/kyechan99/capsule-render) | Vercel |
-| Typing | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | Vercel |
+| Hero | `assets/hero.svg` | **propio** (archivo en el repo) |
+| Footer | [capsule-render](https://github.com/kyechan99/capsule-render) | Vercel |
 | Stack | [skillicons.dev](https://skillicons.dev) | propio |
 | Badges/contacto | [shields.io](https://shields.io) | propio |
 | **Métricas** | [lowlighter/metrics](https://github.com/lowlighter/metrics) | **self-hosted** (Action) |

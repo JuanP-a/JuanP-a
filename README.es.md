@@ -7,18 +7,11 @@
   <a href="https://github.com/JuanP-a/JuanP-a/blob/main/README.md">🇬🇧 English</a> · <b>🇪🇸 Español</b>
 </div>
 
-<img alt="SloKBac — Desarrollador Full-Stack · Ciberseguridad" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:39FF14&height=160&section=header&text=SloKBac&fontSize=52&fontColor=0d1117&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%C2%B7%20Ciberseguridad&descAlignY=60&descSize=16" />
+<img alt="SloKBac — Desarrollador Full-Stack · Ciberseguridad (blue team)" src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/main/assets/hero.svg" />
 
 ## $ whoami
 
 **Desarrollador Full-Stack** · **Ciberseguridad** (blue team)
-
-<p align="center">
-  <a href="https://github.com/JuanP-a"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+whoami;Desarrollador+full-stack;Ciberseguridad+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure.">
-    <img alt="Desarrollador full-stack · ciberseguridad · blue team · Next.js, .NET, Python, Java" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=0369A1&center=true&vCenter=true&width=600&lines=%3E+whoami;Desarrollador+full-stack;Ciberseguridad+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure." />
-  </picture></a>
-</p>
 
 <p align="center">
   <img alt="Stack: TypeScript, Next.js, React, C#, .NET, Angular, Python, Java, Docker, Linux, Bash, Git, PostgreSQL, GitHub Actions" src="https://skillicons.dev/icons?i=ts,nextjs,react,cs,dotnet,angular,py,java,docker,linux,bash,git,postgres,githubactions&perline=7&theme=dark" />
