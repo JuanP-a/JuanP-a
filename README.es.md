@@ -24,6 +24,7 @@
 <p align="center">
   <a href="mailto:juan12fc@gmail.com"><img alt="Correo: juan12fc@gmail.com" src="https://img.shields.io/badge/Email-juan12fc%40gmail.com-39FF14?style=for-the-badge&logo=gmail&logoColor=0d1117" /></a>
   <a href="https://github.com/JuanP-a"><img alt="GitHub: JuanP-a" src="https://img.shields.io/badge/GitHub-JuanP--a-22D3EE?style=for-the-badge&logo=github&logoColor=0d1117" /></a>
+  <a href="https://www.linkedin.com/in/pablo-ruiz-mendoza/"><img alt="Perfil de LinkedIn" src="https://img.shields.io/badge/LinkedIn-perfil-39FF14?style=for-the-badge" /></a>
 </p>
 
 ## $ proyectos
