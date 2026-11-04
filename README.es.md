@@ -25,11 +25,11 @@
 
 ## $ proyectos
 
-| Proyecto | Stack | Qué hace | Enfoque de seguridad |
-|:--|:--|:--|:--|
-| **[restaurante-sistema](https://github.com/JuanP-a/restaurante-sistema)** | `Next.js 16` · `Drizzle` · `Postgres/PGlite` | Pedidos por WhatsApp · dashboard en vivo · impresión térmica 80mm | Login admin con hash bcrypt · cookie de sesión firmada con HMAC |
-| **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)** | `.NET 8` · `Angular` · `SQL Server` | Pedidos con stock en vivo · Dapper + SPs | JWT (HS256) + BCrypt · reglas de contraseña · roles de usuario |
-| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)** | `Python` · `Playwright` · `jobspy` | Búsqueda de empleo dev/cibersec automatizada | `harden.sh` en VPS: sin root ni contraseña por SSH · UFW deny-in · fail2ban (3 intentos → ban 1 h) |
+| Proyecto · Stack | Qué hace | Enfoque de seguridad |
+|:--|:--|:--|
+| **[restaurante-sistema](https://github.com/JuanP-a/restaurante-sistema)**<br>`Next.js 16` `Drizzle` `Postgres/PGlite` | Pedidos por WhatsApp · dashboard en vivo · impresión térmica 80mm | Login admin con hash bcrypt · cookie de sesión firmada con HMAC |
+| **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)**<br>`.NET 8` `Angular` `SQL Server` | Pedidos con stock en vivo · Dapper + SPs | JWT (HS256) + BCrypt · reglas de contraseña · roles de usuario |
+| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)**<br>`Python` `Playwright` `jobspy` | Búsqueda de empleo dev/cibersec automatizada | `harden.sh` en VPS: sin root ni contraseña por SSH · UFW deny-in · fail2ban (3 intentos → ban 1 h) |
 
 ## $ estadísticas
 
