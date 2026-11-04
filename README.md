@@ -14,7 +14,10 @@
 **Full-Stack Developer** · **Cybersecurity** (blue team)
 
 <p align="center">
-  <a href="https://github.com/JuanP-a"><img alt="Full-stack developer · cybersecurity · blue team · Next.js, .NET, Python, Java" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+whoami;Full-stack+developer;Cybersecurity+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure." /></a>
+  <a href="https://github.com/JuanP-a"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+whoami;Full-stack+developer;Cybersecurity+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure.">
+    <img alt="Full-stack developer · cybersecurity · blue team · Next.js, .NET, Python, Java" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=0369A1&center=true&vCenter=true&width=600&lines=%3E+whoami;Full-stack+developer;Cybersecurity+%7C+blue+team;Next.js+%C2%B7+.NET+%C2%B7+Python+%C2%B7+Java;Code.+Ship.+Secure." />
+  </picture></a>
 </p>
 
 <p align="center">
@@ -44,7 +47,10 @@
 ## $ activity
 
 <p align="center">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/output/snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuanP-a/JuanP-a/output/snake.svg">
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/JuanP-a/JuanP-a/output/snake-light.svg" />
+  </picture>
 </p>
 
 <details>

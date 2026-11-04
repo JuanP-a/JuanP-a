@@ -63,6 +63,10 @@ El perfil se organiza en **4 zonas** para minimizar scroll:
   | `#8b949e` / `#0d1117` | 6.15:1 | AA |
   | `#FF00FF` / `#0d1117` | 6.03:1 | AA |
 
+- **Tema claro:** los acentos neón fallan sobre blanco (`#39FF14` 1.36:1,
+  `#22D3EE` 1.81:1). Todo widget transparente (typing, snake) lleva variante
+  clara vía `<picture>` + `prefers-color-scheme`. Acentos claros: `#0369A1`
+  (5.93:1), `#B54708` (5.43:1), texto `#1F2328`, muted `#59636E` (6.11:1).
 - **Headings jerárquicos:** secciones con `##` (no `###` huérfanos).
 - **Motion:** `typing-svg` y `snake` animan en loop y **no** se puede aplicar
   `prefers-reduced-motion` en GitHub (se renderizan como `<img>`). El texto del
