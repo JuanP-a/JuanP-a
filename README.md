@@ -25,11 +25,11 @@
 
 ## $ projects
 
-| Project | Stack | What it does |
-|:--|:--|:--|
-| **[restaurante-sistema](https://github.com/JuanP-a/restaurante-sistema)** | `Next.js 16` · `Drizzle` · `Postgres/PGlite` | WhatsApp ordering · realtime dashboard · 80mm thermal printing |
-| **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)** | `.NET 8` · `Angular` · `SQL Server` | Orders with live stock · JWT + BCrypt · Dapper + stored procs |
-| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)** | `Python` · `Playwright` · `jobspy` | Automated dev/cybersec job search · VPS hardening |
+| Project | Stack | What it does | Security angle |
+|:--|:--|:--|:--|
+| **[restaurante-sistema](https://github.com/JuanP-a/restaurante-sistema)** | `Next.js 16` · `Drizzle` · `Postgres/PGlite` | WhatsApp ordering · realtime dashboard · 80mm thermal printing | Admin login with bcrypt hash · HMAC-signed session cookie |
+| **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)** | `.NET 8` · `Angular` · `SQL Server` | Orders with live stock · Dapper + stored procs | JWT (HS256) + BCrypt · password rules · user roles |
+| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)** | `Python` · `Playwright` · `jobspy` | Automated dev/cybersec job search | VPS `harden.sh`: no SSH root/password login · UFW deny-in · fail2ban (3 tries → 1 h ban) |
 
 ## $ stats
 
