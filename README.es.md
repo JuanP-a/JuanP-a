@@ -64,10 +64,6 @@ root@slokbac:~$ ls ./seguridad
 
 </details>
 
-<p align="center">
-  <img alt="Contador de visitas" src="https://komarev.com/ghpvc/?username=JuanP-a&label=visitas&color=39FF14&style=for-the-badge" />
-</p>
-
 <p align="center"><em>Code. Ship. Secure.</em></p>
 
 <img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:22D3EE&height=90&section=footer" />

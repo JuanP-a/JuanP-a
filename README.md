@@ -64,10 +64,6 @@ root@slokbac:~$ ls ./security
 
 </details>
 
-<p align="center">
-  <img alt="Profile views counter" src="https://komarev.com/ghpvc/?username=JuanP-a&label=profile%20views&color=39FF14&style=for-the-badge" />
-</p>
-
 <p align="center"><em>Code. Ship. Secure.</em></p>
 
 <img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:22D3EE&height=90&section=footer" />

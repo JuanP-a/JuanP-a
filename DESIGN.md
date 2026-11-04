@@ -32,7 +32,7 @@ magenta no se usa como color de texto (solo detalles gráficos).
 
 ## Estructura (zonas)
 
-El perfil se organiza en **3 zonas** para minimizar scroll:
+El perfil se organiza en **4 zonas** para minimizar scroll:
 
 1. **Hero / identidad** — banner, rol, typing, stack, contacto.
 2. **Trabajo** — proyectos (tabla).
@@ -77,7 +77,6 @@ El perfil se organiza en **3 zonas** para minimizar scroll:
 | Stack | [skillicons.dev](https://skillicons.dev) | propio |
 | Badges/contacto | [shields.io](https://shields.io) | propio |
 | **Métricas** | [lowlighter/metrics](https://github.com/lowlighter/metrics) | **self-hosted** (Action) |
-| Visitas | [komarev](https://komarev.com/ghpvc/) | propio |
 | **Snake** | [Platane/snk](https://github.com/Platane/snk) | **self-hosted** (Action) |
 
 > Los self-hosted no dependen de Vercel → no dan `402`.
