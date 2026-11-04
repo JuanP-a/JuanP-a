@@ -29,7 +29,7 @@
 |:--|:--|:--|
 | **[restaurante-sistema](https://github.com/JuanP-a/restaurante-sistema)**<br>`Next.js 16` `Drizzle` `Postgres` `PGlite` | Pedidos por WhatsApp · panel en vivo · impresión térmica | Login admin con bcrypt · cookie de sesión HMAC |
 | **[BSC-sistema](https://github.com/JuanP-a/BSC-sistema)**<br>`.NET 8` `Angular` `SQL Server` | Pedidos con stock en vivo · Dapper + SPs | JWT + BCrypt · reglas de contraseña · roles |
-| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)**<br>`Python` `Playwright` `jobspy` | Búsqueda de empleo dev/cibersec automatizada | Hardening de VPS: SSH solo con llaves · UFW · fail2ban |
+| **[WorkSearcher](https://github.com/JuanP-a/WorkSearcher)**<br>`Python` `Playwright` `jobspy` | Búsqueda de empleo dev/cibersec automatizada | VPS: SSH solo con llaves · UFW · fail2ban |
 
 ## $ estadísticas
 
@@ -55,10 +55,10 @@ root@slokbac:~$ ls ./seguridad
 > hardening/      UFW · fail2ban · hardening SSH · unattended-upgrades
 > automatizacion/ Python · Playwright · pipelines programados
 > auth-segura/    JWT + BCrypt, backends seguros por defecto
-> fundamentos/    Cisco DEVASC (redes + automatización)
+> fundamentos/    Cisco DEVASC, estudiado (redes + automatización)
 ```
 
-![Cisco DEVASC](https://img.shields.io/badge/Cisco_DEVASC-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Cisco DEVASC (en estudio)](https://img.shields.io/badge/Cisco_DEVASC-estudio-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![Hardening](https://img.shields.io/badge/Hardening-UFW_%7C_fail2ban-39FF14?style=for-the-badge&logo=linux&logoColor=0d1117)
 ![Blue Team](https://img.shields.io/badge/Blue_Team-aprendiendo-22D3EE?style=for-the-badge&logo=protonvpn&logoColor=0d1117)
 
